@@ -1,0 +1,95 @@
+[
+  {
+    "user": "john",
+    "ip": "192.168.1.10",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "VIEW_DASHBOARD",
+      "EDIT_FILE"
+    ]
+  },
+  {
+    "user": "alice",
+    "ip": "10.0.0.5",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "EXPORT_DATA",
+      "LOGOUT"
+    ]
+  },
+  {
+    "user": "alice",
+    "ip": "45.13.52.200",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "DOWNLOAD_CONFIDENTIAL",
+      "LOGOUT"
+    ]
+  },
+  {
+    "user": "carol",
+    "ip": "192.168.1.12",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "VIEW_REPORT",
+      "LOGOUT"
+    ]
+  },
+  {
+    "user": "dave",
+    "ip": "198.51.100.75",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "DELETE_FILE",
+      "EXPORT_DATA",
+      "LOGOUT"
+    ]
+  },
+  {
+    "user": "frank",
+    "ip": "77.88.55.22",
+    "country": "Unknown",
+    "issue": "Login from unapproved location (possible credential compromise)",
+    "activity_log": [
+      "LOGIN_SUCCESS",
+      "CHANGE_PASSWORD",
+      "DELETE_FILE",
+      "LOGOUT"
+    ]
+  },
+  {
+    "user": "bob",
+    "ip": "203.0.113.10",
+    "country": "Unknown",
+    "issue": "5 failed login attempts detected (possible brute-force attack)",
+    "activity_log": [
+      "LOGIN_FAIL",
+      "LOGIN_FAIL",
+      "LOGIN_FAIL",
+      "LOGIN_FAIL",
+      "LOGIN_FAIL"
+    ]
+  },
+  {
+    "user": "emma",
+    "ip": "103.21.244.11",
+    "country": "Unknown",
+    "issue": "4 failed login attempts detected (possible brute-force attack)",
+    "activity_log": [
+      "LOGIN_FAIL",
+      "LOGIN_FAIL",
+      "LOGIN_FAIL",
+      "LOGIN_FAIL"
+    ]
+  }
+]
